@@ -4,3 +4,8 @@
 /themes/simple/
 /_resources/
 /public/_resources/
+/.env.example
+/.idea
+/public/install-frameworkmissing.html
+/public/install.php
+/silverstripe.log

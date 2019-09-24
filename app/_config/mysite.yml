@@ -1,0 +1,13 @@
+---
+Name: myproject
+---
+SilverStripe\Core\Manifest\ModuleManifest:
+  project: app
+
+Page:
+  extensions:
+    - LocalValidate\Extension\MyDataExtension
+
+LocalValidate\Model\MyDataObject:
+  extensions:
+    - LocalValidate\Extension\MySecondDataExtension
